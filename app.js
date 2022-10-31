@@ -3,7 +3,7 @@ generarIdUnico1 = () => {
   return Math.random().toString(30).substring(2); 
 } 
 
-// Llamamos a la función 'generarIdUnico()' 
+// Llamamos a la función 'generarIdUnico1()' 
 generarIdUnico1(); 
 
 // Obtenemos 
@@ -16,7 +16,7 @@ generarIdUnico2 = () => {
     var r = Math.random() * 16 | 0, v = c == 'n' ? r : (r & 0x3 | 0x8); 
     return v.toString(16); }); } 
 
-// Llamamos a la función 'generarIdUnico()' 
+// Llamamos a la función 'generarIdUnico2()' 
 generarIdUnico2(); 
 
 // Obtenemos 
